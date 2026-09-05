@@ -1,15 +1,13 @@
 //Arrays
-let arr1 = new Array(5); 
+// Passing a single number creates empty slots!
+const emptySlots = new Array(3); // [empty × 3], length is 3
 
-let arr2= []
+let arr1 = new Array(5); 
 
 const emptyArray = [];
 
 // Passing multiple arguments creates an array with those elements
 const numbers = new Array(10, 20, 30); // [10, 20, 30]
-
-// Passing a single number creates empty slots!
-const emptySlots = new Array(3); // [empty × 3], length is 3
 
 //Array.from--- This method creates a new array from an array-like 
 // or iterable object (like a Set, Map, a string, or a DOM NodeList). 
